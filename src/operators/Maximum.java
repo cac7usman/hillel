@@ -9,6 +9,9 @@ import java.io.InputStreamReader;
 public class Maximum {
     public static void main(String[] args) throws Exception{
         int a, b, c;
+        int max;
+        int sum, mult;
+
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("enter a, b, c: ");
         a = Integer.parseInt(bufferedReader.readLine());
@@ -16,6 +19,15 @@ public class Maximum {
         c = Integer.parseInt(bufferedReader.readLine());
 
         System.out.println(Math.max(a+b+c, a*b*c)+3);
+
+
+
+        sum = ((a+b+c)+3);
+        mult = ((a*b*c)+3);
+
+//        max = sum>mult ? sum : mult;
+        max = ((a+b+c)+3)> ((a*b*c)+3) ? ((a+b+c)+3) : ((a*b*c)+3);
+        System.out.println( max );
 
         bufferedReader.close();
 
