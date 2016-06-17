@@ -1,11 +1,11 @@
-package arrays;
+package hw_01_arrays;
 
 import java.util.Arrays;
 
 /**
  * Created by Alex on 17.06.2016.
  */
-public class indexMax {
+public class indexMax_04 {
     public static void main(String[] args) throws Exception {
         int[] data = new int[]{1, 2, 3, 5, -2, 6, -100, 77, 0, 5};
 

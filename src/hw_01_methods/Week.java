@@ -1,4 +1,4 @@
-package methods;
+package hw_01_methods;
 
 import java.util.Random;
 

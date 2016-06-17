@@ -1,15 +1,14 @@
-package arrays;
+package hw_01_arrays;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
-import java.util.Random;
 
 /**
  * Created by Alex on 17.06.2016.
  */
-public class getMax
+public class getMax_02
 {
     public static void main(String[] args) throws Exception
     {

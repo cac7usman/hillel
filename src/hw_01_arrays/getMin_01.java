@@ -1,12 +1,11 @@
-package arrays;
+package hw_01_arrays;
 
 import java.util.Arrays;
-import java.util.Random;
 
 /**
  * Created by Alex on 17.06.2016.
  */
-public class getMin {
+public class getMin_01 {
     public static void main(String[] args) {
 
         int[] array = {-50, 6, 70, 77, -101};
