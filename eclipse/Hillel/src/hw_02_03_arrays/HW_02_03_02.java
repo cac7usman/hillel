@@ -1,0 +1,33 @@
+package hw_02_03_arrays;
+
+import java.util.Arrays;
+
+/*
+ * Найти максимальный элемент массива
+ */
+public class HW_02_03_02
+{
+	public static void main(String[] args)
+	{
+
+		int[] array =
+		{ -50, 6, 70, 77, -101 };
+
+		System.out.println(Arrays.toString(array));
+
+		System.out.println("Max is " + getMax(array));
+
+	}
+
+	public static int getMax(int[] array)
+	{
+		int max = array[0];
+
+		for (int i = 0; i < array.length; i++)
+		{
+			if (array[i] > max)
+				max = array[i];
+		}
+		return max;
+	}
+}

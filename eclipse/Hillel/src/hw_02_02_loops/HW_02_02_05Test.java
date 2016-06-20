@@ -1,0 +1,24 @@
+package hw_02_02_loops;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+public class HW_02_02_05Test
+{
+
+	@Test
+	public void testGetSum_01()
+	{
+		int test = HW_02_02_05.getSum(12345);
+		assertEquals(15, test);
+	}
+
+	@Test
+	public void testGetSum_02()
+	{
+		int test = HW_02_02_05.getSum(123456789);
+		assertEquals(45, test);
+	}
+
+}
