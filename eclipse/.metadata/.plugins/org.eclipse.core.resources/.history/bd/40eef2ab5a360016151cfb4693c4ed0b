@@ -1,0 +1,17 @@
+package hw_02_01_operators;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class HW_02_01_05Test
+{
+
+	@Test
+	public void testGetMarks()
+	{
+		String test = HW_02_01_05.getMarks(101);
+		assertEquals("F", test);
+	}
+
+}

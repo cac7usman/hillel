@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="HW_02_03_05_OddSumTest" project="Hillel" tests="11" started="11" failures="0" errors="0" ignored="0">
+  <testsuite name="hw_02_03_arrays.HW_02_03_05_OddSumTest" time="0.0">
+    <testcase name="testGetSum_00_1" classname="hw_02_03_arrays.HW_02_03_05_OddSumTest" time="0.001"/>
+    <testcase name="testGetSum_00" classname="hw_02_03_arrays.HW_02_03_05_OddSumTest" time="0.0"/>
+    <testcase name="testGetSum_01" classname="hw_02_03_arrays.HW_02_03_05_OddSumTest" time="0.0"/>
+    <testcase name="testGetSum_02" classname="hw_02_03_arrays.HW_02_03_05_OddSumTest" time="0.0"/>
+    <testcase name="testGetSum_03" classname="hw_02_03_arrays.HW_02_03_05_OddSumTest" time="0.0"/>
+    <testcase name="testGetSum_04" classname="hw_02_03_arrays.HW_02_03_05_OddSumTest" time="0.0"/>
+    <testcase name="testGetSum_05" classname="hw_02_03_arrays.HW_02_03_05_OddSumTest" time="0.0"/>
+    <testcase name="testGetSum_01_01" classname="hw_02_03_arrays.HW_02_03_05_OddSumTest" time="0.0"/>
+    <testcase name="testGetSum_01_02" classname="hw_02_03_arrays.HW_02_03_05_OddSumTest" time="0.0"/>
+    <testcase name="testGetSum_01_03" classname="hw_02_03_arrays.HW_02_03_05_OddSumTest" time="0.0"/>
+    <testcase name="testGetSum_01_04" classname="hw_02_03_arrays.HW_02_03_05_OddSumTest" time="0.0"/>
+  </testsuite>
+</testrun>

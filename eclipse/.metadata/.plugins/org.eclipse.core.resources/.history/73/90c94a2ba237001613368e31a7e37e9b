@@ -1,0 +1,11 @@
+package hw_03_stars;
+
+public class test_2
+{
+	static int b = hw_03_stars.test.a++;
+
+	public static void main(String[] args)
+	{
+		System.out.println(b);
+	}
+}

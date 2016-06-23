@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="HW_02_03_08Test" project="Hillel" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="hw_02_03_arrays.HW_02_03_08Test" time="0.0">
+    <testcase name="testGetSwap_01" classname="hw_02_03_arrays.HW_02_03_08Test" time="0.0"/>
+    <testcase name="testGetSwap_02" classname="hw_02_03_arrays.HW_02_03_08Test" time="0.0"/>
+  </testsuite>
+</testrun>

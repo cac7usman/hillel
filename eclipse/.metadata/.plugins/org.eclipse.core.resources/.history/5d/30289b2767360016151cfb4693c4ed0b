@@ -1,0 +1,44 @@
+package hw_02_02_loops;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+/*
+ * Вычислить факториал числа
+ */
+
+public class HW_02_02_04
+{
+	public static void main(String[] args) throws IOException
+	{
+
+		System.out.println(factorial(getN()));
+
+	}
+
+	public static Integer factorial(int n)
+	{
+		if (n < 0)
+			throw new IllegalArgumentException("n should be >=0");
+		int factorial = 1;
+		for (int i = 2; i <= n; i++)
+		{
+			factorial *= i;
+
+		}
+		return factorial;
+	}
+
+	public static int getN() throws IOException
+	{
+
+		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+
+		int x = Integer.parseInt(bufferedReader.readLine());
+
+		return x;
+
+	}
+
+}

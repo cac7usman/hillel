@@ -1,0 +1,64 @@
+package hw_02_03_arrays;
+
+import static org.junit.Assert.assertArrayEquals;
+
+import org.junit.Test;
+
+public class HW_02_03_08_SwapTest
+{
+
+	@Test(expected = IllegalArgumentException.class)
+	public void testGetSwap_00()
+	{
+		int[] array = null;
+		HW_02_03_08_Swap.getSwap(array);
+	}
+
+	@Test(expected = IllegalArgumentException.class)
+	public void testGetSwap_00_1()
+	{
+		int[] array = {};
+		HW_02_03_08_Swap.getSwap(array);
+	}
+
+	@Test
+	public void testGetSwap_01_01()
+	{
+		int[] array = { 1 };
+		HW_02_03_08_Swap.getSwap(array);
+		assertArrayEquals(new int[] { 1 }, array);
+	}
+
+	@Test
+	public void testGetSwap_01_02()
+	{
+		int[] array = { 1, 2 };
+		HW_02_03_08_Swap.getSwap(array);
+		assertArrayEquals(new int[] { 2, 1 }, array);
+	}
+
+	@Test
+	public void testGetSwap_01_03()
+	{
+		int[] array = { 1, 2, 3 };
+		HW_02_03_08_Swap.getSwap(array);
+		assertArrayEquals(new int[] { 3, 2, 1 }, array);
+	}
+
+	@Test
+	public void testGetSwap_01()
+	{
+		int[] array = { 1, 2, 3, 4, 5 };
+		HW_02_03_08_Swap.getSwap(array);
+		assertArrayEquals(new int[] { 4, 5, 3, 1, 2 }, array);
+	}
+
+	@Test
+	public void testGetSwap_02()
+	{
+		int[] array = { 1, 2, 3, 4, };
+		HW_02_03_08_Swap.getSwap(array);
+		assertArrayEquals(new int[] { 3, 4, 1, 2 }, array);
+	}
+
+}

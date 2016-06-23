@@ -1,0 +1,21 @@
+package hw_02_03_arrays;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+public class HW_02_03_01Test
+{
+
+	@Test
+	public void testGetMin()
+	{
+		int[] array =
+		{ 10, 20, 30, 40, 50 };
+
+		int test = HW_02_03_01.getMin(array);
+
+		assertEquals(1, test);
+	}
+
+}

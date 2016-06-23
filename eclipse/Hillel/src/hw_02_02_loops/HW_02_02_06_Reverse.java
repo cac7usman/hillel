@@ -1,0 +1,31 @@
+package hw_02_02_loops;
+/*
+ * Вывести число, которое является зеркальным отображением последовательности цифр заданного числа, например, задано число 123, вывести 321.
+
+ */
+
+public class HW_02_02_06_Reverse
+{
+	public static int getReverse(int n)
+	{
+		int result = 0;
+		if (n > 0)
+		{
+			while (n > 0)
+			{
+				result = result * 10 + n % 10;
+				n /= 10;
+			}
+			return result;
+		} else
+		{
+			n *= -1;
+			while (n > 0)
+			{
+				result = result * 10 + n % 10;
+				n /= 10;
+			}
+			return result * -1;
+		}
+	}
+}

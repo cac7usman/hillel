@@ -1,0 +1,95 @@
+package hw_02_03_arrays;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+public class HW_02_03_05_OddSumTest
+{
+	@Test(expected = IllegalArgumentException.class)
+	public void testGetSum_00()
+	{
+		int[] array = null;
+		HW_02_03_05_OddSum.getSum(array);
+	}
+
+	@Test(expected = IllegalArgumentException.class)
+	public void testGetSum_00_1()
+	{
+		int[] array = {};
+		HW_02_03_05_OddSum.getSum(array);
+	}
+
+	@Test
+	public void testGetSum_01_01()
+	{
+		int[] array = { 10 };
+		int test = HW_02_03_05_OddSum.getSum(array);
+		assertEquals(0, test);
+	}
+
+	@Test
+	public void testGetSum_01_02()
+	{
+		int[] array = { 10, 11 };
+		int test = HW_02_03_05_OddSum.getSum(array);
+		assertEquals(11, test);
+	}
+
+	@Test
+	public void testGetSum_01_03()
+	{
+		int[] array = { 10, 11, 20 };
+		int test = HW_02_03_05_OddSum.getSum(array);
+		assertEquals(11, test);
+	}
+
+	@Test
+	public void testGetSum_01_04()
+	{
+		int[] array = { 10, 11, 20, 9 };
+		int test = HW_02_03_05_OddSum.getSum(array);
+		assertEquals(20, test);
+	}
+
+	@Test
+	public void testGetSum_01()
+	{
+		int[] array = { 10, 20, 30, 40, -50 };
+		int test = HW_02_03_05_OddSum.getSum(array);
+		assertEquals(60, test);
+	}
+
+	@Test
+	public void testGetSum_02()
+	{
+		int[] array = { 10, 20, 30, 40, -50, -70 };
+		int test = HW_02_03_05_OddSum.getSum(array);
+		assertEquals(-10, test);
+	}
+
+	@Test
+	public void testGetSum_03()
+	{
+		int[] array = { 10, 0, 30, 0, -50 };
+		int test = HW_02_03_05_OddSum.getSum(array);
+		assertEquals(0, test);
+	}
+
+	@Test
+	public void testGetSum_04()
+	{
+		int[] array = { 10, -20, 30, -40, -50 };
+		int test = HW_02_03_05_OddSum.getSum(array);
+		assertEquals(-60, test);
+	}
+
+	@Test
+	public void testGetSum_05()
+	{
+		int[] array = { 10, -20, 30, 40, -50 };
+		int test = HW_02_03_05_OddSum.getSum(array);
+		assertEquals(20, test);
+	}
+
+}

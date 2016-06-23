@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="HW_02_03_04_MaxIndexTest (1)" project="Hillel" tests="8" started="8" failures="0" errors="0" ignored="0">
+  <testsuite name="hw_02_03_arrays.HW_02_03_04_MaxIndexTest" time="0.0">
+    <testcase name="testGetMaxIndex_00" classname="hw_02_03_arrays.HW_02_03_04_MaxIndexTest" time="0.0"/>
+    <testcase name="testGetMaxIndex_01" classname="hw_02_03_arrays.HW_02_03_04_MaxIndexTest" time="0.0"/>
+    <testcase name="testGetMaxIndex_02" classname="hw_02_03_arrays.HW_02_03_04_MaxIndexTest" time="0.0"/>
+    <testcase name="testGetMaxIndex_03" classname="hw_02_03_arrays.HW_02_03_04_MaxIndexTest" time="0.0"/>
+    <testcase name="testGetMaxIndex_04" classname="hw_02_03_arrays.HW_02_03_04_MaxIndexTest" time="0.0"/>
+    <testcase name="testGetMaxIndex_05" classname="hw_02_03_arrays.HW_02_03_04_MaxIndexTest" time="0.0"/>
+    <testcase name="testGetMaxIndex_01_01" classname="hw_02_03_arrays.HW_02_03_04_MaxIndexTest" time="0.0"/>
+    <testcase name="testGetMaxIndex_00_1" classname="hw_02_03_arrays.HW_02_03_04_MaxIndexTest" time="0.0"/>
+  </testsuite>
+</testrun>

@@ -1,23 +1,12 @@
 package hw_02_03_arrays;
 
-import java.util.Arrays;
-
 public class HW_02_03_09_BubbleSort
 {
 
-	public static void main(String[] args)
-	{
-		int[] data = new int[]
-		{ 1, 2, 3, 5, -2, 6, -100, 77, 0, 5 };
-
-		BubbleSort(data);
-
-		System.out.println(Arrays.toString(data));
-
-	}
-
 	public static void BubbleSort(int[] array)
 	{
+		if (array == null || array.length == 0)
+			throw new IllegalArgumentException();
 		for (int i = array.length - 1; i > 0; i--)
 		{
 			for (int j = 0; j < i; j++)

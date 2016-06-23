@@ -1,0 +1,20 @@
+package hw_02_03_arrays;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class HW_02_03_09_SelectTest
+{
+
+	@Test
+	public void testSelectSort_01()
+	{
+		int[] array =
+			{ 5, 4, 3, 2, 1 };
+			HW_02_03_09_Select.SelectSort(array);
+			assertArrayEquals(new int[]
+			{ 1, 2, 3, 4, 5 }, array);
+	}
+
+}

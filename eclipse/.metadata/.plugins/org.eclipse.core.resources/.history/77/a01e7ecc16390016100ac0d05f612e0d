@@ -1,0 +1,39 @@
+package hw_02_02_loops;
+/*
+ * Посчитать сумму цифр заданного числа
+ */
+
+public class HW_02_02_05
+{
+	public static void main(String[] args)
+	{
+		System.out.println(Sum(123));
+	}
+
+	public static int getSum(int x)
+	{
+		String s = String.valueOf(x);
+		String[] array = s.split("");
+
+		int sum = 0;
+		for (String string : array)
+		{
+			sum += Integer.parseInt(string);
+		}
+
+		return sum;
+	}
+
+	public static int Sum(int x)
+	{
+		int sum = 0;
+
+		while (x != 0)
+		{
+			sum += (x % 10);
+			x /= 10;
+		}
+
+		return x;
+	}
+}

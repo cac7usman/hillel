@@ -1,0 +1,46 @@
+package hw_02_03_arrays;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class HW_02_03_09_InsertTest
+{
+
+	@Test
+	public void testInsertSort_01()
+	{
+		int[] array =
+			{ -10, 50, 0, 20 };
+			HW_02_03_09_Insert.InsertSort(array);
+			assertArrayEquals(new int[]
+			{ -10, 0, 20, 50 }, array);
+	}
+	
+	@Test
+	public void testInsertSort_01()
+	{
+		int[] array =
+			{ -10, 50, 0, 20 };
+			HW_02_03_09_Insert.InsertSort(array);
+			assertArrayEquals(new int[]
+			{ -10, 0, 20, 50 }, array);
+	}@Test
+	public void testInsertSort_01()
+	{
+		int[] array =
+			{ -10, 50, 0, 20 };
+			HW_02_03_09_Insert.InsertSort(array);
+			assertArrayEquals(new int[]
+			{ -10, 0, 20, 50 }, array);
+	}@Test
+	public void testInsertSort_01()
+	{
+		int[] array =
+			{ -10, 50, 0, 20 };
+			HW_02_03_09_Insert.InsertSort(array);
+			assertArrayEquals(new int[]
+			{ -10, 0, 20, 50 }, array);
+	}
+
+}

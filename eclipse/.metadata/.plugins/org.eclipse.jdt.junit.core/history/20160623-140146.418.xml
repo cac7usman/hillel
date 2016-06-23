@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="HW_02_03_03_MinIndexTest" project="Hillel" tests="8" started="8" failures="0" errors="0" ignored="0">
+  <testsuite name="hw_02_03_arrays.HW_02_03_03_MinIndexTest" time="0.0">
+    <testcase name="testGetMinIndex_00_0" classname="hw_02_03_arrays.HW_02_03_03_MinIndexTest" time="0.0"/>
+    <testcase name="testGetMinIndex_00" classname="hw_02_03_arrays.HW_02_03_03_MinIndexTest" time="0.0"/>
+    <testcase name="testGetMinIndex_01" classname="hw_02_03_arrays.HW_02_03_03_MinIndexTest" time="0.0"/>
+    <testcase name="testGetMinIndex_02" classname="hw_02_03_arrays.HW_02_03_03_MinIndexTest" time="0.0"/>
+    <testcase name="testGetMinIndex_03" classname="hw_02_03_arrays.HW_02_03_03_MinIndexTest" time="0.0"/>
+    <testcase name="testGetMinIndex_04" classname="hw_02_03_arrays.HW_02_03_03_MinIndexTest" time="0.0"/>
+    <testcase name="testGetMinIndex_05" classname="hw_02_03_arrays.HW_02_03_03_MinIndexTest" time="0.0"/>
+    <testcase name="testGetMinIndex_01_01" classname="hw_02_03_arrays.HW_02_03_03_MinIndexTest" time="0.0"/>
+  </testsuite>
+</testrun>

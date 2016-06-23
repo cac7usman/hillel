@@ -1,0 +1,50 @@
+package hw_02_01_operators;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+/*
+ * Определить какой четверти принадлежит точка с координатами (х,у)
+ * */
+
+public class HW_02_01_02
+{
+	public static void main(String[] args) throws IOException
+	{
+		int a = getX();
+		int b = getY();
+
+		System.out.println(getQuadrant(a, b));
+
+	}
+
+	public static int getX() throws IOException
+	{
+
+		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+		System.out.println("enter x: ");
+		int x = Integer.parseInt(bufferedReader.readLine());
+
+		return x;
+
+	}
+
+	public static int getY() throws IOException
+	{
+
+		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+		System.out.println("enter y: ");
+		int x = Integer.parseInt(bufferedReader.readLine());
+
+		return x;
+
+	}
+
+	public static String getQuadrant(int a, int b)
+	{
+		return null;
+
+	}
+
+}

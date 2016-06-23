@@ -1,0 +1,59 @@
+package hw_02_01_operators;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+/*
+ * Определить какой четверти принадлежит точка с координатами (х,у)
+ * */
+
+public class HW_02_01_02
+{
+	public static void main(String[] args) throws IOException
+	{
+		int a = getX();
+		int b = getY();
+
+		getQuadrant(a, b);
+
+	}
+
+	public static int getX() throws IOException
+	{
+
+		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+		System.out.println("enter x: ");
+		int x = Integer.parseInt(bufferedReader.readLine());
+
+		return x;
+
+	}
+
+	public static int getY() throws IOException
+	{
+
+		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+		System.out.println("enter y: ");
+		int x = Integer.parseInt(bufferedReader.readLine());
+
+		return x;
+
+	}
+
+	public static void getQuadrant(int x, int y)
+	{
+		if (x > 0 && y > 0)
+			System.out.println("1. quadrant");
+		else if (x < 0 && y > 0)
+			System.out.println("2. quadrant");
+		else if (x < 0 && y < 0)
+			System.out.println("3. quadrant");
+		else if (x > 0 && y < 0)
+			System.out.println("4. quadrant");
+		else
+			System.out.println("point belongs to one of the axes");
+
+	}
+
+}

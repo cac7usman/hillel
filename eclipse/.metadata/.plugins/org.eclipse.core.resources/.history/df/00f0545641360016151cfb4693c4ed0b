@@ -1,0 +1,16 @@
+package hw_02_01_operators;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class HW_02_01_02Test
+{
+
+	@Test
+	public void testGetQuadrant()
+	{
+		fail("Not yet implemented");
+	}
+
+}

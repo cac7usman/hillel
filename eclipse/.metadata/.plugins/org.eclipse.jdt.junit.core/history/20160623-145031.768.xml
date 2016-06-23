@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="HW_02_03_09_SelectTest" project="Hillel" tests="9" started="9" failures="0" errors="0" ignored="0">
+  <testsuite name="hw_02_03_arrays.HW_02_03_09_SelectTest" time="0.002">
+    <testcase name="testSelectSort_00_01" classname="hw_02_03_arrays.HW_02_03_09_SelectTest" time="0.0"/>
+    <testcase name="testSelectSort_01_01" classname="hw_02_03_arrays.HW_02_03_09_SelectTest" time="0.0"/>
+    <testcase name="testSelectSort_01_02" classname="hw_02_03_arrays.HW_02_03_09_SelectTest" time="0.0"/>
+    <testcase name="testSelectSort_01_03" classname="hw_02_03_arrays.HW_02_03_09_SelectTest" time="0.0"/>
+    <testcase name="testSelectSort_00" classname="hw_02_03_arrays.HW_02_03_09_SelectTest" time="0.0"/>
+    <testcase name="testSelectSort_01" classname="hw_02_03_arrays.HW_02_03_09_SelectTest" time="0.0"/>
+    <testcase name="testSelectSort_02" classname="hw_02_03_arrays.HW_02_03_09_SelectTest" time="0.0"/>
+    <testcase name="testSelectSort_03" classname="hw_02_03_arrays.HW_02_03_09_SelectTest" time="0.001"/>
+    <testcase name="testSelectSort_04" classname="hw_02_03_arrays.HW_02_03_09_SelectTest" time="0.001"/>
+  </testsuite>
+</testrun>

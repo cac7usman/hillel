@@ -1,0 +1,18 @@
+package hw_02_02_loops;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class HW_02_02_02Test
+{
+
+	@Test
+	public void testIsPrime_01()
+	{
+		
+        assertTrue(HW_02_02_02.isPrime(5));
+        assertFalse(HW_02_02_02.isPrime(6));
+	}
+
+}

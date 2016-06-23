@@ -1,0 +1,18 @@
+package hw_02_04_methods;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+public class HW_02_04_01Test
+{
+
+	@Test
+	public void testGetDay()
+	{
+		String test = HW_02_04_01.getDay(1);
+		assertEquals("Sunday", test);
+
+	}
+
+}

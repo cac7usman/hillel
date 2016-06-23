@@ -1,0 +1,41 @@
+package hw_02_03_arrays;
+
+import java.util.Arrays;
+
+public class HW_02_03_09_Insert
+{
+
+	public static void main(String[] args)
+	{
+		int[] data = new int[]
+		{ 1, 2, 3, 5, -2, 6, -100, 77, 0, 5 };
+
+		InsertSort(data);
+
+		System.out.println(Arrays.toString(data));
+
+	}
+
+	public static void InsertSort(int[] array)
+	{
+		for (int i = 0; i < array.length; i++)
+		{
+			int temp = array[i];// запомним i-ый элемент
+			int j = i - 1;// будем идти начиная с i-1 элемента
+			while (j >= 0 && array[j] > temp)
+			// пока не достигли начала массива
+			// или не нашли элемент больше i-1-го
+			// который храниться в переменной temp
+			{
+				array[j + 1] = array[j];
+				// проталкиваем элемент вверх
+				j--;
+			}
+			array[j + 1] = temp;
+			// возвращаем i-1 элемент
+		}
+		// Выводим отсортированный массив
+
+	}
+
+}

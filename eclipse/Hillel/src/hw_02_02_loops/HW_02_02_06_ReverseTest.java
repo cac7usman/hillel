@@ -1,0 +1,45 @@
+package hw_02_02_loops;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+public class HW_02_02_06_ReverseTest
+{
+
+	@Test
+	public void testGetReverse()
+	{
+		int test = HW_02_02_06_Reverse.getReverse(12345);
+		assertEquals(54321, test);
+	}
+
+	@Test
+	public void testGetReverse_01()
+	{
+		int test = HW_02_02_06_Reverse.getReverse(1);
+		assertEquals(1, test);
+	}
+
+	@Test
+	public void testGetReverse_01_01()
+	{
+		int test = HW_02_02_06_Reverse.getReverse(-1);
+		assertEquals(-1, test);
+	}
+
+	@Test
+	public void testGetReverse_01_02()
+	{
+		int test = HW_02_02_06_Reverse.getReverse(0);
+		assertEquals(0, test);
+	}
+
+	@Test
+	public void testGetReverse_02()
+	{
+		int test = HW_02_02_06_Reverse.getReverse(-12345);
+		assertEquals(-54321, test);
+	}
+
+}

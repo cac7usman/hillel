@@ -1,0 +1,19 @@
+package hw_02_03_arrays;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+public class HW_02_03_07Test
+{
+
+	@Test
+	public void getQtest_01()
+	{
+		int[] array =
+		{ 10, 20, 30, 40, 50 };
+		int test = HW_02_03_07.getQ(array);
+		assertEquals(0, test);
+	}
+
+}

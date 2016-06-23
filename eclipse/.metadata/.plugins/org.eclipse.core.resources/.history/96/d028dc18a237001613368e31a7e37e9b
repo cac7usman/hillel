@@ -1,0 +1,21 @@
+package hw_03_stars;
+
+public class test
+{
+
+	public static void main(String[] args)
+	{
+		f(0);
+	}
+
+	public static class test1
+	{
+		static int i = 10;
+	}
+
+	private static void f(int n)
+	{
+		int i1 = test1.i++;
+		System.out.println(i1);
+	}
+}

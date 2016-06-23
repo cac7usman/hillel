@@ -1,0 +1,16 @@
+package hw_02_03_arrays;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class HW_02_03_01Test
+{
+
+	@Test
+	public void testGetMin()
+	{
+		fail("Not yet implemented");
+	}
+
+}

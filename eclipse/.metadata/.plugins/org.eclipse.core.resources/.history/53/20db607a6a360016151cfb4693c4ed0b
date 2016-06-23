@@ -1,0 +1,22 @@
+package hw_02_02_loops;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class HW_02_02_04Test
+{
+
+	@Test
+	public void testFactorial_01()
+	{
+		int test = HW_02_02_04.factorial(0);
+	}
+
+	@Test
+	public void testFactorial1()
+	{
+		fail("Not yet implemented");
+	}
+
+}

@@ -1,0 +1,23 @@
+package hw_02_01_operators;
+
+/*
+ * Если а – четное посчитать а*б, иначе а+б
+ * */
+public class HW_02_01_01
+{
+	public static void main(String[] args)
+	{
+		int i = 10;
+		int k = 20;
+
+		isEven(i,k);
+		
+}
+	public static void isEven(int a, int b)
+	{
+	if (a % 2 == 0)
+		System.out.println(a * b);
+	else
+		System.out.println(a + b);
+}
+}

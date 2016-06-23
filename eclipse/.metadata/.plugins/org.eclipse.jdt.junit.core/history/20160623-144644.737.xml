@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="HW_02_03_09_InsertTest" project="Hillel" tests="9" started="9" failures="0" errors="0" ignored="0">
+  <testsuite name="hw_02_03_arrays.HW_02_03_09_InsertTest" time="0.001">
+    <testcase name="testInsertSort_00_01" classname="hw_02_03_arrays.HW_02_03_09_InsertTest" time="0.0"/>
+    <testcase name="testInsertSort_01_01" classname="hw_02_03_arrays.HW_02_03_09_InsertTest" time="0.0"/>
+    <testcase name="testInsertSort_01_02" classname="hw_02_03_arrays.HW_02_03_09_InsertTest" time="0.0"/>
+    <testcase name="testInsertSort_01_03" classname="hw_02_03_arrays.HW_02_03_09_InsertTest" time="0.0"/>
+    <testcase name="testInsertSort_00" classname="hw_02_03_arrays.HW_02_03_09_InsertTest" time="0.0"/>
+    <testcase name="testInsertSort_01" classname="hw_02_03_arrays.HW_02_03_09_InsertTest" time="0.0"/>
+    <testcase name="testInsertSort_02" classname="hw_02_03_arrays.HW_02_03_09_InsertTest" time="0.0"/>
+    <testcase name="testInsertSort_03" classname="hw_02_03_arrays.HW_02_03_09_InsertTest" time="0.001"/>
+    <testcase name="testInsertSort_04" classname="hw_02_03_arrays.HW_02_03_09_InsertTest" time="0.0"/>
+  </testsuite>
+</testrun>

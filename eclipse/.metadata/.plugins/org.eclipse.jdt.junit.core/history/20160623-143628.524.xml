@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="HW_02_03_08_SwapTest" project="Hillel" tests="7" started="7" failures="0" errors="0" ignored="0">
+  <testsuite name="hw_02_03_arrays.HW_02_03_08_SwapTest" time="0.001">
+    <testcase name="testGetSwap_00" classname="hw_02_03_arrays.HW_02_03_08_SwapTest" time="0.001"/>
+    <testcase name="testGetSwap_01" classname="hw_02_03_arrays.HW_02_03_08_SwapTest" time="0.0"/>
+    <testcase name="testGetSwap_02" classname="hw_02_03_arrays.HW_02_03_08_SwapTest" time="0.0"/>
+    <testcase name="testGetSwap_00_1" classname="hw_02_03_arrays.HW_02_03_08_SwapTest" time="0.0"/>
+    <testcase name="testGetSwap_01_01" classname="hw_02_03_arrays.HW_02_03_08_SwapTest" time="0.0"/>
+    <testcase name="testGetSwap_01_02" classname="hw_02_03_arrays.HW_02_03_08_SwapTest" time="0.0"/>
+    <testcase name="testGetSwap_01_03" classname="hw_02_03_arrays.HW_02_03_08_SwapTest" time="0.0"/>
+  </testsuite>
+</testrun>

@@ -1,0 +1,15 @@
+package hw_02_01_operators;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+public class HW_02_01_03Test
+{
+
+	@Test
+	public void testGetSum_01()
+	{
+		int c = HW_02_01_03.getSum(0, 0, 0);
+		assertEquals(0, c);
+	}

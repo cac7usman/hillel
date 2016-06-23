@@ -1,0 +1,17 @@
+package hw_02_04_methods;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+public class HW_02_04_04Test
+{
+
+	@Test
+	public void testGetDistance_01()
+	{
+		double test = HW_02_04_04.getDistance(0, 0, 0, 0);
+		assertEquals(0, test, 0);
+	}
+
+}

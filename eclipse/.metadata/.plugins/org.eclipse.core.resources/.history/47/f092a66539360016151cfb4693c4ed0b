@@ -1,0 +1,22 @@
+package hw_02_01_operators;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class HW_02_01_01Test
+{
+
+	@Test
+	public void testMain()
+	{
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testIsEven()
+	{
+		fail("Not yet implemented");
+	}
+
+}

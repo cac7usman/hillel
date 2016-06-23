@@ -1,0 +1,25 @@
+package hw_02_03_arrays;
+
+/*
+ * Посчитать количество нечетных элементов массива
+
+ */
+public class HW_02_03_07_Q_OddIndex
+{
+
+	public static int getQ(int[] array)
+	{
+		if (array == null || array.length == 0)
+			throw new IllegalArgumentException();
+
+		int q = 0;
+
+		for (int i = 0; i < array.length; i++)
+		{
+			if (array[i] % 2 != 0)
+				q++;
+		}
+		return q;
+	}
+
+}

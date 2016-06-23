@@ -1,0 +1,33 @@
+package hw_03_stars;
+
+public class HW_03_03
+{
+	public static void main(String[] args)
+	{
+		print();
+	}
+
+	private static void print()
+	{
+		int column = 7;
+		int row = 7;
+
+		label: for (int i = 10; i > 1; i--)
+		{
+			for (int j = 10; j > 1; j--)
+			{
+				if (i > j)
+				{
+
+					System.out.println();
+
+					continue label;
+				}
+
+				System.out.print("*");
+			}
+
+		}
+
+	}
+}

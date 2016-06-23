@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="HW_02_04_01Test" project="Hillel" tests="7" started="7" failures="0" errors="0" ignored="0">
+  <testsuite name="hw_02_04_methods.HW_02_04_01Test" time="0.001">
+    <testcase name="testGetDay_01" classname="hw_02_04_methods.HW_02_04_01Test" time="0.001"/>
+    <testcase name="testGetDay_02" classname="hw_02_04_methods.HW_02_04_01Test" time="0.0"/>
+    <testcase name="testGetDay_03" classname="hw_02_04_methods.HW_02_04_01Test" time="0.0"/>
+    <testcase name="testGetDay_04" classname="hw_02_04_methods.HW_02_04_01Test" time="0.0"/>
+    <testcase name="testGetDay_05" classname="hw_02_04_methods.HW_02_04_01Test" time="0.0"/>
+    <testcase name="testGetDay_06" classname="hw_02_04_methods.HW_02_04_01Test" time="0.0"/>
+    <testcase name="testGetDay_07" classname="hw_02_04_methods.HW_02_04_01Test" time="0.0"/>
+  </testsuite>
+</testrun>

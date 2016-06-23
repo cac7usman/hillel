@@ -1,0 +1,25 @@
+package hw_03_stars;
+
+public class HW_03_03
+{
+	public static void main(String[] args)
+	{
+		print();
+	}
+
+	private static void print()
+	{
+		int row = 14;
+		int column = 14;
+		for (int j = 0; j < column; j++)
+		{
+			for (int i = 0; i < row; i++)
+			{
+				System.out.print("*");
+				row--;
+			}
+			System.out.println();
+			column--;
+		}
+	}
+}

@@ -1,0 +1,34 @@
+package hw_02_03_arrays;
+
+import java.util.Arrays;
+
+/*
+ * Найти минимальный элемент массива
+ */
+public class HW_02_03_01
+{
+	public static void main(String[] args)
+	{
+
+		int[] array =
+		{ -50, 6, 70, 77, -101 };
+
+		System.out.println(Arrays.toString(array));
+		
+		System.out.println("Min is " + getMin(array));
+
+	}
+
+	public static int getMin(int[] array)
+	{
+		int min = array[0];
+		for (int i = 1; i < array.length; i++)
+		{
+			if (array[i] < min)
+
+				min = array[i];
+		}
+
+		return min;
+	}
+}

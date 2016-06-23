@@ -1,0 +1,2 @@
+INDEX VERSION 1.127+C:\Users\asus\Google Drive\HILLEL\eclipse\.metadata\.plugins\org.eclipse.jdt.core
+1652754926.index

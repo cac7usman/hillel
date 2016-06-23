@@ -1,0 +1,55 @@
+package hw_02_03_arrays;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+public class HW_02_03_05_OddSumTest
+{
+
+	@Test
+	public void testGetSum_01()
+	{
+		int[] array =
+		{ 10, 20, 30, 40, -50 };
+		int test = HW_02_03_05_OddSum.getSum(array);
+		assertEquals(60, test);
+	}
+
+	@Test
+	public void testGetSum_02()
+	{
+		int[] array =
+		{ 10, 20, 30, 40, -50, -70 };
+		int test = HW_02_03_05_OddSum.getSum(array);
+		assertEquals(-10, test);
+	}
+
+	@Test
+	public void testGetSum_03()
+	{
+		int[] array =
+		{ 10, 0, 30, 0, -50 };
+		int test = HW_02_03_05_OddSum.getSum(array);
+		assertEquals(0, test);
+	}
+
+	@Test
+	public void testGetSum_04()
+	{
+		int[] array =
+		{ 10, -20, 30, -40, -50 };
+		int test = HW_02_03_05_OddSum.getSum(array);
+		assertEquals(-60, test);
+	}
+
+	@Test
+	public void testGetSum_05()
+	{
+		int[] array =
+		{ 10, -20, 30, 40, -50 };
+		int test = HW_02_03_05_OddSum.getSum(array);
+		assertEquals(20, test);
+	}
+
+}

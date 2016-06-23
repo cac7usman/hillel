@@ -1,0 +1,17 @@
+package hw_02_01_operators;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class HW_02_01_03Test
+{
+
+	@Test
+	public void testGetSum()
+	{
+		int c = HW_02_01_03.getSum(-1, -1, -1);
+		assertEquals(0, c);
+	}
+
+}

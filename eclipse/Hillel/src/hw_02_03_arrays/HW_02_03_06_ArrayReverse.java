@@ -1,0 +1,23 @@
+package hw_02_03_arrays;
+
+
+/**
+ * Сделать реверс массива (массив в обратном направлении)
+ * 
+ */
+public class HW_02_03_06_ArrayReverse
+{
+	public static void getReverse(int[] array)
+	{
+		if (array == null || array.length == 0)
+			throw new IllegalArgumentException();
+		for (int i = 0; i < array.length / 2; i++)
+		{
+			int tmp = array[i];
+			array[i] = array[array.length - i - 1];
+			array[array.length - i - 1] = tmp;
+
+		}
+	}
+
+}
